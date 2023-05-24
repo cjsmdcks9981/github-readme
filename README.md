@@ -444,11 +444,21 @@ kill 명령어
 - **개요**
 
 
+![adsaa](https://github.com/cjsmdcks9981/github-readme/assets/111216695/00b887b4-3db5-4a7f-9426-a9d3aa9c8cbe)
+
+
 kill 명령어는 이름 때문에 프로세스를 강제로 종료시키는 명령어로 kill 명령어는 주로 프로세스를 종료하는 용도로 많이 사용된다.
 
 - **명령어**
 
 `kill [option] [pid]`
+
+`kill -s [signal id or text] [pid]`
+
+`kill -[signal id or text] [pid]`
+
+s 옵션으로 시그널을 지정하지 않으면 기본 시그널 값이 정상종료된다.
+프로세스를 안전하게 종료하기 위해서는 데이터 유실 위험이 있어 강제 종료를 권장하지 않는다. 
 
 >`PID` 프로세스마다 주어지는 번호
 
